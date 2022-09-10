@@ -13,6 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Route::get('/', [PortalController::class, 'login']);
+// Route::get('/', [PortalController::class, 'login']);
+Route::post('login', [PortalController::class, 'post_login']);
+Route::get('api/login', [PortalController::class, 'apiLogin']);
+Route::get('logout', [PortalController::class, 'logout']);
+Route::get('reload-captcha', [PortalController::class, 'reloadCaptcha']);
+Route::get('shared/{id}', [PortalController::class, 'shared']);
+
+Route::get('/', function(){
+    return view('backend.layout.content');
+});
+
+Route::group(['middleware' => ['check-auth']], function () {
+
+    Route::get('portal/dashboard', [PortalController::class, 'dashboard']);
 });
