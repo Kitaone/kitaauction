@@ -28,29 +28,29 @@
 // });
 //  // Create a Tile Layer and add it to the map
 //  var tiles = new L.tileLayer('%7bs%7d.basemaps.cartocdn.com/rastertiles/voyager_labels_under/%7bz%7d/%7bx%7d/%7by%7d.png', {
-//   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-//   subdomains: 'abcd',
-//   maxZoom: '19'
-// }).addTo(map);
+//  	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+//  	subdomains: 'abcd',
+//  	maxZoom: '19'
+//  }).addTo(map);
 // // Init slider
 // var slider = document.getElementById("sliderRegular");
 // noUiSlider.create(slider, {
-//   start: 40,
-//   connect: [true, false],
-//   range: {
-//     min: 0,
-//     max: 100
-//   }
+// 	start: 40,
+// 	connect: [true, false],
+// 	range: {
+// 		min: 0,
+// 		max: 100
+// 	}
 // });
 </script>
 <script>
-//  var win = navigator.platform.indexOf('Win') > -1;
-//  if (win && document.querySelector('#sidenav-scrollbar')) {
-//   var options = {
-//     damping: '0.5'
-//   }
-//   Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
-// }
+	var win = navigator.platform.indexOf('Win') > -1;
+	if (win && document.querySelector('#sidenav-scrollbar')) {
+		var options = {
+			damping: '0.5'
+		}
+		Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+	}
 </script>
 <script async defer src="buttons.github.io/buttons.js">
 </script>

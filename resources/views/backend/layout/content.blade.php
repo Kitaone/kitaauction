@@ -1,48 +1,67 @@
 @extends('backend.layout.main')
 @section('content')
-
 <div class="row mt-4">
   <div class="col-lg-7">
     <div class="card bg-gradient-dark">
       <img src="{{url('assets/img/shapes/waves-white.svg')}}" alt="pattern-lines" class="position-absolute opacity-2 start-0 top-0 w-100">
-      <img class="w-75 mt-n7 mt-lg-n8 d-none d-md-block mx-auto z-index-1" src="{{url('assets/img/tesla-model-s.png')}}" alt="car image">
+      <img class="w-75 mt-n7 mt-lg-n8 d-none d-md-block mx-auto z-index-1" src="{{url('assets/img/skyline-nismo-rlc.png')}}" alt="car image">
       <div class="card-body px-5 z-index-1 bg-cover overflow-hidden pb-2">
         <div class="row">
           <div class="col-12 text-center">
             <div class="row">
               <div class="col-lg-6 col-12">
                 <h4 class="text-white opacity-9">
-                  Since Last Charge
+                  Auction
                 </h4>
                 <hr class="horizontal light mt-1 mb-3">
                 <div class="d-flex justify-content-center">
                   <div>
                     <h6 class="mb-0 text-white opacity-8 font-weight-normal">
-                      Distance
+                      Open Bid
                     </h6>
                     <h3 class="text-white">
-                      145 
+                      1100<span class="text-muted">k</span> 
                       <small class="text-sm">
-                        Km
+                        IDR
                       </small>
                     </h3>
                   </div>
                   <div class="ms-lg-6 ms-4">
                     <h6 class="mb-0 text-white opacity-8 font-weight-normal">
-                      Average Energy
+                      Last Bid
                     </h6>
                     <h3 class="text-white">
-                      300 
+                      2140<span class="text-muted">k</span> 
                       <small class="text-sm">
-                        Kw
+                        IDR
                       </small>
                     </h3>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6 col-12">
+
                 <h4 class="text-white opacity-9">
-                  Nearest Charger
+                  Price
+                </h4>
+                <hr class="horizontal light mt-1 mb-3">
+                <div class="d-flex justify-content-center">
+                  <div>
+                    <h6 class="mb-0 text-white opacity-8 font-weight-normal">
+                      BIN
+                    </h6>
+                    <h3 class="text-white">
+                      4500<span class="text-muted">k</span> 
+                      <small class="text-sm">
+                        IDR
+                      </small>
+                    </h3>
+                  </div>
+
+                </div>
+
+                <!-- <h4 class="text-white opacity-9">
+                  BIN Price
                 </h4>
                 <hr class="horizontal light mt-1 mb-3">
                 <div class="d-flex justify-content-center">
@@ -61,7 +80,7 @@
                       </i>
                     </button>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -78,17 +97,17 @@
               <div class="col-8 my-auto">
                 <div class="numbers">
                   <p class="text-white text-sm mb-0 text-capitalize font-weight-bold opacity-7">
-                    Wheather today
+                    Auction Period
                   </p>
                   <h5 class="text-white font-weight-bolder mb-0">
-                    San Francisco - 29°C
+                    KA - 47
                   </h5>
                 </div>
               </div>
               <div class="col-4 text-end">
-                <img class="w-50" src="{{url('assets/img/small-logos/icon-sun-cloud.png')}}" alt="image sun">
+                <img class="w-50" src="{{url('assets/img/small-logos/sniper-icon.png')}}" alt="image sun">
                 <h5 class="mb-0 text-white text-end me-1">
-                  Cloudy
+                  <!-- Sniper -->
                 </h5>
               </div>
             </div>
@@ -105,10 +124,10 @@
             </div>
             <div class="text-end pt-1">
               <p class="text-sm mb-0 text-capitalize">
-                Today's Trip
+                Item Ready
               </p>
               <h4 class="mb-0">
-                145 Km
+                145
               </h4>
             </div>
           </div>
@@ -119,15 +138,15 @@
           <div class="card-body p-3 pt-2">
             <div class="icon icon-lg icon-shape bg-gradient-dark shadow text-center border-radius-xl mt-n4 position-absolute">
               <i class="material-icons opacity-10" aria-hidden="true">
-                battery_full
+                money
               </i>
             </div>
             <div class="text-end pt-1">
               <p class="text-sm mb-0 text-capitalize">
-                Battery Health
+                Bid Start
               </p>
               <h4 class="mb-0">
-                99 %
+                10k
               </h4>
             </div>
           </div>
@@ -143,10 +162,10 @@
             </div>
             <div class="text-end pt-1">
               <p class="text-sm mb-0 text-capitalize">
-                Average Speed
+                Exclusive Item
               </p>
               <h4 class="mb-0">
-                56 Km/h
+                56
               </h4>
             </div>
           </div>
@@ -157,15 +176,15 @@
           <div class="card-body p-3 pt-2">
             <div class="icon icon-lg icon-shape bg-gradient-dark shadow text-center border-radius-xl mt-n4 position-absolute">
               <i class="material-icons opacity-10" aria-hidden="true">
-                volume_up
+                people
               </i>
             </div>
             <div class="text-end pt-1">
               <p class="text-sm mb-0 text-capitalize">
-                Music Volume
+                User Bidding
               </p>
               <h4 class="mb-0">
-                15/100
+                69
               </h4>
             </div>
           </div>

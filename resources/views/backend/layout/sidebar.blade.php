@@ -5,7 +5,7 @@
     <a class="navbar-brand m-0" href="analytics.html" target="_blank">
       <img src="{{url('assets/img/logo-ct.png')}}" class="navbar-brand-img h-100" alt="main_logo">
       <span class="ms-1 font-weight-bold text-white">
-        Material Dashboard 2 PRO
+        Kita Auction
       </span>
     </a>
   </div>
@@ -16,7 +16,7 @@
         <a data-bs-toggle="collapse" href="#ProfileNav" class="nav-link text-white" aria-controls="ProfileNav" role="button" aria-expanded="false">
           <img src="{{url('assets/img/team-3.jpg')}}" class="avatar">
           <span class="nav-link-text ms-2 ps-1">
-            Brooklyn Alice
+            Oktaviani Niken
           </span>
         </a>
         <div class="collapse" id="ProfileNav" style="">
