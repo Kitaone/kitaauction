@@ -5,6 +5,12 @@
     <div class="card bg-gradient-dark">
       <img src="{{url('assets/img/shapes/waves-white.svg')}}" alt="pattern-lines" class="position-absolute opacity-2 start-0 top-0 w-100">
       <img class="w-75 mt-n7 mt-lg-n8 d-none d-md-block mx-auto z-index-1" src="{{url('assets/img/skyline-nismo-rlc.png')}}" alt="car image">
+      <span class="text-center" style="margin-top: -130px;">
+        <h3 class="text-white">
+          RLC Exclusive Nissan Skyline GT-R
+        </h3>
+        <p class="text-white" style="padding-right: 20px;padding-left: 20px;">For our 2022 Japanese Convention Car, we’re recasting the fan-favorite Nissan Skyline GT-R. Featuring Spectraflame black over chrome for a dark sheen, this third colorway makes a statement wherever it rolls. With special touches like the iconic NISMO livery and a ghosted Hot Wheels logo on the door, this model is made to show off.  </p>
+      </span>
       <div class="card-body px-5 z-index-1 bg-cover overflow-hidden pb-2">
         <div class="row">
           <div class="col-12 text-center">
